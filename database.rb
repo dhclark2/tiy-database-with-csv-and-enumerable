@@ -77,14 +77,19 @@ class Database
     @people.each do |person|
       if person.name == name
         puts
-        puts "Employee: #{person.name}"
-        puts "Phone Numer: #{person.phone}"
-        puts "Home Address: #{person.address}"
-        puts "Job Title: #{person.position}"
-        puts "Annual Salary: #{person.salary}"
-        puts "Slack Account: #{person.slack}"
-        puts "GitHub Account: #{person.github}"
+        print "Employee:...........| #{person.name}"
         puts
+        print "Phone Numer:........| #{person.phone}"
+        puts
+        print "Home Address:.......| #{person.address}"
+        puts
+        print "Job Title:..........| #{person.position}"
+        puts
+        print "Annual Salary:......| #{person.salary}"
+        puts
+        print "Slack Account:......| #{person.slack}"
+        puts
+        print "GitHub Account:.....| #{person.github}"
         puts
       else
         puts
